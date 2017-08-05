@@ -1,0 +1,176 @@
+@media screen and (max-width:353px){
+   .outer{
+        position:relative;
+        display:flex;
+        align-items: center;
+        padding-top: 130px;
+    }
+    header{
+        position: absolute;
+        justify-content: center;
+        margin-bottom: 100px;
+        text-align: center;
+        top:20px;
+        left:0;
+        right:0;
+    }
+    #tweet{
+        margin: 5px auto;
+        width:50%;
+    }
+    #clipboard{
+          margin: 5px auto;
+        width:50%;
+    }
+    .buttons{
+        margin:50px 17px;
+    }
+    #genquote{
+        margin: 5px auto;
+        width:100%;
+    }
+    .quotecontainer{
+        align-self: center;
+    }
+    .container{
+        max-width: 800px;
+    }
+}
+
+
+@media screen and (min-width:354px) and (max-width:768px){
+    
+    .outer{
+        position:relative;
+        display:flex;
+        align-items: center;
+        padding-top: 130px;
+        padding-bottom: 100px;
+    }
+    header{
+        position: absolute;
+        justify-content: center;
+        margin-bottom: 100px;
+        text-align: center;
+        top:20px;
+        left:0;
+        right:0;
+    }
+    #tweet{
+        position:absolute;
+        left:35px;
+        bottom:20px
+    }
+    #clipboard{
+        position:absolute;
+        left:130px;
+        bottom:20px
+    }
+    #genquote{
+        position: absolute;
+        right: 35px;
+        bottom:20px;
+    }
+    .quotecontainer{
+        align-self: center;
+    }
+    .container{
+        max-width: 800px;
+    }
+    
+    
+}
+@media screen and (min-width:769px){
+    .outer{
+        display:flex;
+        align-items:center;
+        justify-items:center;
+    }
+    .gerador{
+        margin: 0 16px;
+    }
+    .twitter{
+        margin: 0 16px;
+    }
+    
+}
+
+
+.outer{
+  font-family: Oxygen;
+  background-color:#f44336;
+  background: linear-gradient(#52EDC7,#5AC8FB);
+  min-height:100vh;
+}
+hr{
+  width:0;
+}
+.btn{
+  background-color:rgba(255,255,255, 0);
+  color:#1F1F21;
+  box-shadow: 0px 0px 1px 1px;
+  
+}
+.btn:hover{
+  color:black;
+}
+.btn:focus{
+  color:black;
+}
+
+.container{
+  max-width: 900px;
+    
+}
+header{
+  text-shadow:
+    -1px -1px 0 #000,  
+     1px -1px 0 #000,
+    -1px  1px 0 #000,
+     1px  1px 0 #000;
+  color:#1F1F21;
+}
+#copy{
+    
+    outline:none;
+    border:none;
+    background-color: rgba(255,255,255,0);
+}
+
+
+.quotecontainer{
+  margin:10px 0; 
+  border-style:solid;
+  border-color:#1F1F21;
+  border-width:1px;
+  border-radius:10px;
+  display:block;
+  color:#1F1F21;
+  font-size:1.5em;
+    width:100%;
+}
+
+
+#author{
+  text-align:right !important;
+}
+
+.gerador{
+  float:right;
+}
+.twitter{
+  float:left;
+}
+
+.no-outline{
+    border:none !important;
+    outline:none !important;
+    background-color: transparent;
+    font-size: 0.8em;
+}
+
+.cpyconfirm{
+    text-align: center;
+    font-size:0.5em;
+    color:red;
+}
